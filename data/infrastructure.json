@@ -1,0 +1,9 @@
+{
+  "Environment": "windows-reliability-lab",
+  "Nodes": [
+    {"Name":"WEB-01","Role":"Web Gateway","Zone":"Zone A","Status":"Healthy","CpuPct":34,"MemoryPct":58,"Dns":"web-a.lab.local","TcpPort":443,"LastBackupHours":3},
+    {"Name":"WEB-02","Role":"Web Gateway","Zone":"Zone B","Status":"Healthy","CpuPct":29,"MemoryPct":52,"Dns":"web-b.lab.local","TcpPort":443,"LastBackupHours":4},
+    {"Name":"APP-01","Role":"Application Service","Zone":"Zone A","Status":"Healthy","CpuPct":47,"MemoryPct":64,"Dns":"app-a.lab.local","TcpPort":8443,"LastBackupHours":5},
+    {"Name":"DB-01","Role":"Data Service","Zone":"Zone B","Status":"Healthy","CpuPct":41,"MemoryPct":67,"Dns":"data-b.lab.local","TcpPort":1433,"LastBackupHours":2}
+  ]
+}
